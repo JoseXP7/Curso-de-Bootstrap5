@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desplazamiento</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+	h1 {
+		text-align: center
+	}
+	.fila {
+		border: 3px solid blue;
+		background: lightblue;
+		margin-bottom: 15px;
+	}
+	.columna {
+		border: 2px solid green;
+		background: lightgreen;
+		padding: 10px
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="row row-cols-12 fila">
+			<div class="col columna">1</div>
+			<div class="col columna">2</div>
+			<div class="col columna">3</div>
+			<div class="col columna">4</div>
+			<div class="col columna">5</div>
+			<div class="col columna">6</div>
+			<div class="col columna">7</div>
+			<div class="col columna">8</div>
+			<div class="col columna">9</div>
+			<div class="col columna">10</div>
+			<div class="col columna">11</div>
+			<div class="col columna">12</div>
+		</div>
+		<div class="row fila">
+			<div class="col-3 offset-5 columna">Columna 1</div>
+		</div>
+		<div class="row fila">
+			<div class="col-3 me-auto columna">Columna 1</div> <!--ms: margin left, me: margin right -->
+			<div class="col-3 columna">Columna 1</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

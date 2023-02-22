@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>g-0</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+	h1 {
+		text-align: center
+	}
+	.fila {
+		border: 3px solid blue;
+		background: lightblue;
+		margin-bottom: 15px;
+		height: 180px
+	}
+	.columna {
+		border: 2px solid green;
+		background: lightgreen;
+		padding: 10px
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1>g-0</h1>
+		</div>
+		<div class="row gx-3 fila"> <!--g-0, gx-valor, gy-valor -->
+			<div class="col-3 columna">Columna 1</div>
+			<div class="col-3 columna">Columna 2</div>
+			<div class="col-3 columna">Columna 3</div>
+		</div>
+		<div class="row fila">
+			<div class="col-3 columna">Columna 1</div>
+			<div class="col-3 columna">Columna 2</div>
+			<div class="col-3 columna">Columna 3</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
