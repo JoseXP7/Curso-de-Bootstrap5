@@ -1,0 +1,30 @@
+Clases CSS Layout
+	🔖 container
+		-Centrar el contenido
+
+	🔖 container-tamaño
+		-Tamaños: sm, md, lg, xl, xxl
+		Centrar el contenido del elemento en un tamaño especial
+
+	🔖 container-fluid
+		-Abarcar el 100% del ancho de la pagina en todos los tamaños
+
+Alinear columnas
+	main axis ===> justify
+	cross axis ===> align
+
+	modo:
+		-content --> grupo
+		-items --> linea
+		-self --> individual
+
+	ubicacion:
+		align: -start
+			   -center
+			   -end
+
+		justify: -start
+				 -center
+				 -end
+				 -around
+				 -between
